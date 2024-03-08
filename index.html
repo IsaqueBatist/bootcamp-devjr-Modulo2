@@ -19,7 +19,7 @@
     }
 
     .header {
-      padding: 40px;
+      padding: 2.5rem;
     }
 
     .flexcontainer {
@@ -31,59 +31,59 @@
 
     .hearde-tittle {
       color: #006C64;
-      font-size: 32px;
+      font-size: 2rem;
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 1.2rem;
     }
 
     .hearde-subtitle {
       color: #0D878E;
-      font-size: 20px;
+      font-size: 1.2rem;
       font-weight: 500;
-      margin-bottom: 15px;
+      margin-bottom: 0.9rem;
 
     }
 
     .col1 {
       background-color: #08686A;
       width: 50%;
-      padding: 20px;
+      padding: 1.2rem;
       color: #FFFF;
     }
 
     .col2 {
       background-color: #0D878E;
       width: 50%;
-      padding: 20px;
+      padding: 0.6rem 1.2rem;
       color: #FFFF;
     }
 
     .subscripiton-title {
-      font-size: 20px;
+      font-size: 1.25rem;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 0.6rem;
     }
 
     .pirce {
-      font-size: 26px;
+      font-size: 1.62rem;
       font-weight: 700;
     }
 
     .month {
-      font-size: 15px;
+      font-size: 0.93rem;
       font-style: italic;
-      margin-left: 15px;
+      margin-left: 0.9rem;
     }
 
     .bottom {
       color: #0D6E7F;
       width: 100%;
-      padding: 15px 32px;
-      font-size: 16px;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
       border-radius: 4px;
       border: none;
       background-color: #CCCCCC;
-      margin-top: 20px;
+      margin-top: 1.2rem;
       cursor: pointer;
     }
 
@@ -93,6 +93,27 @@
 
     .image {
       text-align: center;
+    }
+
+    @media screen and (max-width:620px) {
+      html {
+        font-size: 14px;
+      }
+
+      .flexcontainer {
+        flex-direction: column;
+      }
+
+      .col1,
+      .col2 {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .conteiner {
+        width: 95%;
+      }
+
 
     }
   </style>
@@ -131,7 +152,7 @@
       </div>
       <div class="col2">
         <div class="image">
-          <object data="people-outline.svg" image/svg+xml"></object>
+          <object data="people-outline.svg" image=/svg+xml></object>
         </div>
         <div>
           Você terá acesso:
